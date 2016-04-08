@@ -25,7 +25,7 @@ class SAEnginePlugin(plugins.SimplePlugin):
  
     def start(self):
         self.bus.log('Starting up DB access')
-        self.sa_engine = create_engine('sqlite:///twiseless.db', echo=False)
+        self.sa_engine = create_engine('sqlite:///homeTemperature.db', echo=False)
         self.create_all()
         self.bus.subscribe("bind-session", self.bind)
         self.bus.subscribe("commit-session", self.commit)
@@ -63,13 +63,9 @@ class SAEnginePlugin(plugins.SimplePlugin):
             raise
         finally:
             self.session.remove()
-    
+
     def create_all(self):
         self.bus.log('Creating database')
-        from lib.model.user import User
-        from lib.model.mention import Mention
-        Base.metadata.create_all(self.sa_engine)
-        
+
     def destroy_all(self):
         self.bus.log('Destroying database')
-        Base.metadata.drop_all(self.sa_engine)

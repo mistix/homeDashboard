@@ -40,14 +40,9 @@ class Server(object):
         from lib.tool.db import SATool
         cherrypy.tools.db = SATool()
 
-        # Tool to load the logged in user or redirect
-        # the client to the login page
-        from lib.tool.user import UserTool
-        cherrypy.tools.user = UserTool()
-
         # Our application
-        from webapp.app import Twiseless
-        webapp = Twiseless()
+        from webapp.app import WeatherStation
+        webapp = WeatherStation()
         # Let's mount the application so that CherryPy can serve it
         app = cherrypy.tree.mount(webapp, '/', os.path.join(self.conf_path, "app.cfg"))
         self.make_rotate_logs(app)
@@ -63,15 +58,6 @@ class Server(object):
         engine.db = SAEnginePlugin(engine)
         engine.db.subscribe()
 
-        # Twitter data loader plugin
-        from lib.plugin.tweet import TweetEnginePlugin
-        TweetEnginePlugin(engine, app.config['twitter']['freq']).subscribe()
-
-        # OAuth helper plugin
-        from lib.plugin.oauth import OAuthEnginePlugin
-        OAuthEnginePlugin(engine, app.config['oauth']['consumer_key'],
-                          app.config['oauth']['consumer_secret']).subscribe()
-        
     def run(self):
         engine = cherrypy.engine
         
