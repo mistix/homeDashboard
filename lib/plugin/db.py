@@ -10,14 +10,7 @@ __all__ = ['SAEnginePlugin']
         
 class SAEnginePlugin(plugins.SimplePlugin):
     def __init__(self, bus):
-        """
-        The plugin is registered to the CherryPy engine and therefore
-        is part of the bus (the engine *is* a bus) registery.
- 
-        We use this plugin to create the SA engine. At the same time,
-        when the plugin starts we create the tables into the database
-        using the mapped class of the global metadata.
-        """
+
         plugins.SimplePlugin.__init__(self, bus)
         self.sa_engine = None
         self.session = scoped_session(sessionmaker(autoflush=True,
@@ -25,8 +18,7 @@ class SAEnginePlugin(plugins.SimplePlugin):
  
     def start(self):
         self.bus.log('Starting up DB access')
-        self.sa_engine = create_engine('sqlite:///homeTemperature.db', echo=False)
-        self.create_all()
+        self.sa_engine = create_engine('sqlite:////mnt/external/weatherStation/homeTemperature.db3', echo=True)
         self.bus.subscribe("bind-session", self.bind)
         self.bus.subscribe("commit-session", self.commit)
  
@@ -35,7 +27,6 @@ class SAEnginePlugin(plugins.SimplePlugin):
         self.bus.unsubscribe("bind-session", self.bind)
         self.bus.unsubscribe("commit-session", self.commit)
         if self.sa_engine:
-            #self.destroy_all()
             self.sa_engine.dispose()
             self.sa_engine = None
  

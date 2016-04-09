@@ -16,40 +16,43 @@ class WeatherStation(object):
     @cherrypy.tools.json_out()
     def last_24_hours(self):
         db = cherrypy.request.db
-        temperature = {}
+        readings = []
         for temperature in Temperature.get_last_24_hours(db):
             node = {
                 "readingDateTime": temperature.readingDate,
                 "airTemperature": temperature.airTemperature,
                 "heaterTemperature": temperature.heaterTemperature
             }
-        temperature.append(node)
-        return temperature 
+            readings.append(node)
+
+        return readings
 
     @cherrypy.expose
     @cherrypy.tools.json_out()
     def last_48_hours(self):
         db = cherrypy.request.db
-        temperature = {}
+        readings = []
         for temperature in Temperature.get_last_48_hours(db):
             node = {
                 "readingDateTime": temperature.readingDate,
                 "airTemperature": temperature.airTemperature,
                 "heaterTemperature": temperature.heaterTemperature
             }
-        temperature.append(node)
-        return temperature 
+            readings.append(node)
+
+        return readings
 
     @cherrypy.expose
     @cherrypy.tools.json_out()
     def reading_in_range(self, fromDate, toDate):
         db = cherrypy.request.db
-        temperature = {}
+        readings = []
         for temperature in Temperature.get_reading_inrange(db, fromDate, toDate):
             node = {
                 "readingDateTime": temperature.readingDate,
                 "airTemperature": temperature.airTemperature,
                 "heaterTemperature": temperature.heaterTemperature
             }
-        temperature.append(node)
-        return temperature
+            readings.append(node)
+
+        return readings

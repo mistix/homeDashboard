@@ -796,3 +796,1394 @@ DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [S
 [03/Apr/2016:13:51:58] ENGINE Bus EXITING
 [03/Apr/2016:13:51:58] ENGINE Bus EXITED
 [03/Apr/2016:13:51:58] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:20:22:21] ENGINE Listening for SIGHUP.
+[08/Apr/2016:20:22:21] ENGINE Listening for SIGTERM.
+[08/Apr/2016:20:22:21] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:20:22:21] ENGINE Bus STARTING
+[08/Apr/2016:20:22:21] ENGINE Setting up Mako resources
+[08/Apr/2016:20:22:21] ENGINE Starting up DB access
+[08/Apr/2016:20:22:21] ENGINE Creating database
+[08/Apr/2016:20:22:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:20:22:21] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:20:22:21] ENGINE Bus STARTED
+[08/Apr/2016:20:22:44] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:20:22:44] ENGINE Bus STOPPING
+[08/Apr/2016:20:22:44] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:20:22:44] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:20:22:44] ENGINE Freeing up Mako resources
+[08/Apr/2016:20:22:44] ENGINE Stopping down DB access
+[08/Apr/2016:20:22:44] ENGINE Bus STOPPED
+[08/Apr/2016:20:22:44] ENGINE Bus EXITING
+[08/Apr/2016:20:22:44] ENGINE Bus EXITED
+[08/Apr/2016:20:22:44] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:20:22:54] ENGINE Listening for SIGHUP.
+[08/Apr/2016:20:22:54] ENGINE Listening for SIGTERM.
+[08/Apr/2016:20:22:54] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:20:22:54] ENGINE Bus STARTING
+[08/Apr/2016:20:22:54] ENGINE Setting up Mako resources
+[08/Apr/2016:20:22:54] ENGINE Starting up DB access
+[08/Apr/2016:20:22:54] ENGINE Creating database
+[08/Apr/2016:20:22:54] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:20:22:54] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:20:22:54] ENGINE Bus STARTED
+[08/Apr/2016:20:27:27] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:20:27:27] ENGINE Bus STOPPING
+[08/Apr/2016:20:27:27] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:20:27:27] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:20:27:27] ENGINE Freeing up Mako resources
+[08/Apr/2016:20:27:27] ENGINE Stopping down DB access
+[08/Apr/2016:20:27:27] ENGINE Bus STOPPED
+[08/Apr/2016:20:27:27] ENGINE Bus EXITING
+[08/Apr/2016:20:27:27] ENGINE Bus EXITED
+[08/Apr/2016:20:27:27] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:20:37:55] ENGINE Listening for SIGHUP.
+[08/Apr/2016:20:37:55] ENGINE Listening for SIGTERM.
+[08/Apr/2016:20:37:55] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:20:37:55] ENGINE Bus STARTING
+[08/Apr/2016:20:37:55] ENGINE Setting up Mako resources
+[08/Apr/2016:20:37:55] ENGINE Starting up DB access
+[08/Apr/2016:20:37:55] ENGINE Creating database
+[08/Apr/2016:20:37:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:20:37:55] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:20:37:55] ENGINE Bus STARTED
+[08/Apr/2016:20:40:11] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:20:40:11] ENGINE Bus STOPPING
+[08/Apr/2016:20:40:11] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:20:40:11] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:20:40:11] ENGINE Freeing up Mako resources
+[08/Apr/2016:20:40:11] ENGINE Stopping down DB access
+[08/Apr/2016:20:40:11] ENGINE Bus STOPPED
+[08/Apr/2016:20:40:11] ENGINE Bus EXITING
+[08/Apr/2016:20:40:11] ENGINE Bus EXITED
+[08/Apr/2016:20:40:11] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:20:40:14] ENGINE Listening for SIGHUP.
+[08/Apr/2016:20:40:14] ENGINE Listening for SIGTERM.
+[08/Apr/2016:20:40:14] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:20:40:14] ENGINE Bus STARTING
+[08/Apr/2016:20:40:14] ENGINE Setting up Mako resources
+[08/Apr/2016:20:40:14] ENGINE Starting up DB access
+[08/Apr/2016:20:40:14] ENGINE Creating database
+[08/Apr/2016:20:40:14] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:20:40:15] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:20:40:15] ENGINE Bus STARTED
+[08/Apr/2016:20:40:28] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[08/Apr/2016:20:40:28] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 20, in last_24_hours
+    for temperature in Temperature.get_last_24_hours(db):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'SELECT "sensorsReadingView"."readingDate" AS "sensorsReadingView_readingDate", "sensorsReadingView"."airTemperature" AS "sensorsReadingView_airTemperature", "sensorsReadingView"."heaterTemperature" AS "sensorsReadingView_heaterTemperature" \nFROM "sensorsReadingView" \nWHERE "sensorsReadingView"."readingDate" >= ? ORDER BY "sensorsReadingView"."readingDate"'] [parameters: ('2016-04-09 20:40:28.380668',)]
+[08/Apr/2016:20:41:50] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:20:41:50] ENGINE Bus STOPPING
+[08/Apr/2016:20:41:50] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:20:41:50] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:20:41:50] ENGINE Freeing up Mako resources
+[08/Apr/2016:20:41:50] ENGINE Stopping down DB access
+[08/Apr/2016:20:41:50] ENGINE Bus STOPPED
+[08/Apr/2016:20:41:50] ENGINE Bus EXITING
+[08/Apr/2016:20:41:50] ENGINE Bus EXITED
+[08/Apr/2016:20:41:50] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:20:41:53] ENGINE Listening for SIGHUP.
+[08/Apr/2016:20:41:53] ENGINE Listening for SIGTERM.
+[08/Apr/2016:20:41:53] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:20:41:53] ENGINE Bus STARTING
+[08/Apr/2016:20:41:53] ENGINE Setting up Mako resources
+[08/Apr/2016:20:41:53] ENGINE Starting up DB access
+[08/Apr/2016:20:41:53] ENGINE Creating database
+[08/Apr/2016:20:41:53] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:20:41:53] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:20:41:53] ENGINE Bus STARTED
+[08/Apr/2016:20:42:01] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[08/Apr/2016:20:42:01] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 20, in last_24_hours
+    for temperature in Temperature.get_last_24_hours(db):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'SELECT "sensorsReadingView"."readingDate" AS "sensorsReadingView_readingDate", "sensorsReadingView"."airTemperature" AS "sensorsReadingView_airTemperature", "sensorsReadingView"."heaterTemperature" AS "sensorsReadingView_heaterTemperature" \nFROM "sensorsReadingView" \nWHERE "sensorsReadingView"."readingDate" >= ? ORDER BY "sensorsReadingView"."readingDate"'] [parameters: ('2016-04-09 20:42:01.384290',)]
+[08/Apr/2016:20:42:34] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:20:42:34] ENGINE Bus STOPPING
+[08/Apr/2016:20:42:34] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:20:42:34] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:20:42:34] ENGINE Freeing up Mako resources
+[08/Apr/2016:20:42:34] ENGINE Stopping down DB access
+[08/Apr/2016:20:42:34] ENGINE Bus STOPPED
+[08/Apr/2016:20:42:34] ENGINE Bus EXITING
+[08/Apr/2016:20:42:34] ENGINE Bus EXITED
+[08/Apr/2016:20:42:34] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:20:47:24] ENGINE Listening for SIGHUP.
+[08/Apr/2016:20:47:24] ENGINE Listening for SIGTERM.
+[08/Apr/2016:20:47:24] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:20:47:24] ENGINE Bus STARTING
+[08/Apr/2016:20:47:24] ENGINE Setting up Mako resources
+[08/Apr/2016:20:47:24] ENGINE Starting up DB access
+[08/Apr/2016:20:47:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:20:47:24] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:20:47:24] ENGINE Bus STARTED
+[08/Apr/2016:20:47:32] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[08/Apr/2016:20:47:32] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 20, in last_24_hours
+    for temperature in Temperature.get_last_24_hours(db):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'SELECT "sensorsReadingView"."readingDate" AS "sensorsReadingView_readingDate", "sensorsReadingView"."airTemperature" AS "sensorsReadingView_airTemperature", "sensorsReadingView"."heaterTemperature" AS "sensorsReadingView_heaterTemperature" \nFROM "sensorsReadingView" \nWHERE "sensorsReadingView"."readingDate" >= ? ORDER BY "sensorsReadingView"."readingDate"'] [parameters: ('2016-04-09 20:47:32.572741',)]
+[08/Apr/2016:20:48:35] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:20:48:35] ENGINE Bus STOPPING
+[08/Apr/2016:20:48:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:20:48:35] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:20:48:35] ENGINE Freeing up Mako resources
+[08/Apr/2016:20:48:35] ENGINE Stopping down DB access
+[08/Apr/2016:20:48:35] ENGINE Bus STOPPED
+[08/Apr/2016:20:48:35] ENGINE Bus EXITING
+[08/Apr/2016:20:48:35] ENGINE Bus EXITED
+[08/Apr/2016:20:48:35] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:20:48:46] ENGINE Listening for SIGHUP.
+[08/Apr/2016:20:48:46] ENGINE Listening for SIGTERM.
+[08/Apr/2016:20:48:46] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:20:48:46] ENGINE Bus STARTING
+[08/Apr/2016:20:48:46] ENGINE Setting up Mako resources
+[08/Apr/2016:20:48:46] ENGINE Starting up DB access
+[08/Apr/2016:20:48:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:20:48:46] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:20:48:46] ENGINE Bus STARTED
+[08/Apr/2016:20:48:52] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[08/Apr/2016:20:48:52] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 20, in last_24_hours
+    for temperature in Temperature.get_last_24_hours(db):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'SELECT "sensorsReadingView"."readingDate" AS "sensorsReadingView_readingDate", "sensorsReadingView"."airTemperature" AS "sensorsReadingView_airTemperature", "sensorsReadingView"."heaterTemperature" AS "sensorsReadingView_heaterTemperature" \nFROM "sensorsReadingView"']
+[08/Apr/2016:20:52:09] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:20:52:09] ENGINE Bus STOPPING
+[08/Apr/2016:20:52:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:20:52:09] ENGINE Freeing up Mako resources
+[08/Apr/2016:20:52:09] ENGINE Stopping down DB access
+[08/Apr/2016:20:52:09] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:20:52:09] ENGINE Bus STOPPED
+[08/Apr/2016:20:52:09] ENGINE Bus EXITING
+[08/Apr/2016:20:52:09] ENGINE Bus EXITED
+[08/Apr/2016:20:52:09] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:20:54:42] ENGINE Listening for SIGHUP.
+[08/Apr/2016:20:54:42] ENGINE Listening for SIGTERM.
+[08/Apr/2016:20:54:42] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:20:54:42] ENGINE Bus STARTING
+[08/Apr/2016:20:54:42] ENGINE Setting up Mako resources
+[08/Apr/2016:20:54:42] ENGINE Starting up DB access
+[08/Apr/2016:20:54:42] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:20:54:43] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:20:54:43] ENGINE Bus STARTED
+[08/Apr/2016:20:54:50] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[08/Apr/2016:20:54:50] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 20, in last_24_hours
+    for temperature in Temperature.get_last_24_hours(db):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'SELECT "sensorsReadingView"."readingDate" AS "sensorsReadingView_readingDate", "sensorsReadingView"."airTemperature" AS "sensorsReadingView_airTemperature", "sensorsReadingView"."heaterTemperature" AS "sensorsReadingView_heaterTemperature" \nFROM "sensorsReadingView"']
+[08/Apr/2016:21:00:30] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:21:00:30] ENGINE Bus STOPPING
+[08/Apr/2016:21:00:30] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:21:00:30] ENGINE Freeing up Mako resources
+[08/Apr/2016:21:00:30] ENGINE Stopping down DB access
+[08/Apr/2016:21:00:30] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:21:00:30] ENGINE Bus STOPPED
+[08/Apr/2016:21:00:30] ENGINE Bus EXITING
+[08/Apr/2016:21:00:30] ENGINE Bus EXITED
+[08/Apr/2016:21:00:30] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:21:03:45] ENGINE Listening for SIGHUP.
+[08/Apr/2016:21:03:45] ENGINE Listening for SIGTERM.
+[08/Apr/2016:21:03:45] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:21:03:45] ENGINE Bus STARTING
+[08/Apr/2016:21:03:45] ENGINE Setting up Mako resources
+[08/Apr/2016:21:03:45] ENGINE Starting up DB access
+[08/Apr/2016:21:03:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:21:03:45] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:21:03:45] ENGINE Bus STARTED
+[08/Apr/2016:21:03:52] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[08/Apr/2016:21:03:52] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 20, in last_24_hours
+    for temperature in Temperature.get_last_24_hours(db):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'SELECT "sensorsReadingView"."readingDate" AS "sensorsReadingView_readingDate", "sensorsReadingView"."airTemperature" AS "sensorsReadingView_airTemperature", "sensorsReadingView"."heaterTemperature" AS "sensorsReadingView_heaterTemperature" \nFROM "sensorsReadingView"']
+[08/Apr/2016:21:07:07] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[08/Apr/2016:21:07:07] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 20, in last_24_hours
+    for temperature in Temperature.get_last_24_hours(db):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'SELECT "sensorsReadingView"."readingDate" AS "sensorsReadingView_readingDate", "sensorsReadingView"."airTemperature" AS "sensorsReadingView_airTemperature", "sensorsReadingView"."heaterTemperature" AS "sensorsReadingView_heaterTemperature" \nFROM "sensorsReadingView"']
+[08/Apr/2016:21:07:45] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:21:07:45] ENGINE Bus STOPPING
+[08/Apr/2016:21:07:45] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:21:07:45] ENGINE Freeing up Mako resources
+[08/Apr/2016:21:07:45] ENGINE Stopping down DB access
+[08/Apr/2016:21:07:45] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:21:07:45] ENGINE Bus STOPPED
+[08/Apr/2016:21:07:45] ENGINE Bus EXITING
+[08/Apr/2016:21:07:45] ENGINE Bus EXITED
+[08/Apr/2016:21:07:45] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:21:10:14] ENGINE Listening for SIGHUP.
+[08/Apr/2016:21:10:14] ENGINE Listening for SIGTERM.
+[08/Apr/2016:21:10:14] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:21:10:14] ENGINE Bus STARTING
+[08/Apr/2016:21:10:14] ENGINE Starting up DB access
+[08/Apr/2016:21:10:15] ENGINE Setting up Mako resources
+[08/Apr/2016:21:10:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:21:10:15] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:21:10:15] ENGINE Bus STARTED
+[08/Apr/2016:21:10:20] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[08/Apr/2016:21:10:20] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 20, in last_24_hours
+    for temperature in Temperature.get_last_24_hours(db):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'SELECT "sensorsReadingView"."readingDate" AS "sensorsReadingView_readingDate", "sensorsReadingView"."airTemperature" AS "sensorsReadingView_airTemperature", "sensorsReadingView"."heaterTemperature" AS "sensorsReadingView_heaterTemperature" \nFROM "sensorsReadingView"']
+[08/Apr/2016:21:12:10] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:21:12:10] ENGINE Bus STOPPING
+[08/Apr/2016:21:12:10] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:21:12:10] ENGINE Stopping down DB access
+[08/Apr/2016:21:12:10] ENGINE Freeing up Mako resources
+[08/Apr/2016:21:12:10] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:21:12:10] ENGINE Bus STOPPED
+[08/Apr/2016:21:12:10] ENGINE Bus EXITING
+[08/Apr/2016:21:12:10] ENGINE Bus EXITED
+[08/Apr/2016:21:12:10] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:21:16:29] ENGINE Listening for SIGHUP.
+[08/Apr/2016:21:16:29] ENGINE Listening for SIGTERM.
+[08/Apr/2016:21:16:29] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:21:16:29] ENGINE Bus STARTING
+[08/Apr/2016:21:16:29] ENGINE Setting up Mako resources
+[08/Apr/2016:21:16:29] ENGINE Starting up DB access
+[08/Apr/2016:21:16:29] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:21:16:29] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:21:16:29] ENGINE Bus STARTED
+[08/Apr/2016:21:17:59] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:21:17:59] ENGINE Bus STOPPING
+[08/Apr/2016:21:17:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:21:17:59] ENGINE Freeing up Mako resources
+[08/Apr/2016:21:17:59] ENGINE Stopping down DB access
+[08/Apr/2016:21:17:59] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:21:17:59] ENGINE Bus STOPPED
+[08/Apr/2016:21:17:59] ENGINE Bus EXITING
+[08/Apr/2016:21:17:59] ENGINE Bus EXITED
+[08/Apr/2016:21:17:59] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:21:24:08] ENGINE Listening for SIGHUP.
+[08/Apr/2016:21:24:08] ENGINE Listening for SIGTERM.
+[08/Apr/2016:21:24:08] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:21:24:08] ENGINE Bus STARTING
+[08/Apr/2016:21:24:08] ENGINE Setting up Mako resources
+[08/Apr/2016:21:24:08] ENGINE Starting up DB access
+[08/Apr/2016:21:24:08] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:21:24:08] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:21:24:08] ENGINE Bus STARTED
+[08/Apr/2016:21:25:23] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:21:25:23] ENGINE Bus STOPPING
+[08/Apr/2016:21:25:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:21:25:23] ENGINE Freeing up Mako resources
+[08/Apr/2016:21:25:23] ENGINE Stopping down DB access
+[08/Apr/2016:21:25:23] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:21:25:23] ENGINE Bus STOPPED
+[08/Apr/2016:21:25:23] ENGINE Bus EXITING
+[08/Apr/2016:21:25:23] ENGINE Bus EXITED
+[08/Apr/2016:21:25:23] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:21:26:04] ENGINE Listening for SIGHUP.
+[08/Apr/2016:21:26:04] ENGINE Listening for SIGTERM.
+[08/Apr/2016:21:26:04] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:21:26:04] ENGINE Bus STARTING
+[08/Apr/2016:21:26:04] ENGINE Setting up Mako resources
+[08/Apr/2016:21:26:04] ENGINE Starting up DB access
+[08/Apr/2016:21:26:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:21:26:04] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:21:26:04] ENGINE Bus STARTED
+[08/Apr/2016:21:26:39] ENGINE Keyboard Interrupt: shutting down bus
+[08/Apr/2016:21:26:39] ENGINE Bus STOPPING
+[08/Apr/2016:21:26:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:21:26:39] ENGINE Freeing up Mako resources
+[08/Apr/2016:21:26:39] ENGINE Stopping down DB access
+[08/Apr/2016:21:26:39] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:21:26:39] ENGINE Bus STOPPED
+[08/Apr/2016:21:26:39] ENGINE Bus EXITING
+[08/Apr/2016:21:26:39] ENGINE Bus EXITED
+[08/Apr/2016:21:26:39] ENGINE Waiting for child threads to terminate...
+[08/Apr/2016:21:26:42] ENGINE Listening for SIGHUP.
+[08/Apr/2016:21:26:42] ENGINE Listening for SIGTERM.
+[08/Apr/2016:21:26:42] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:21:26:42] ENGINE Bus STARTING
+[08/Apr/2016:21:26:42] ENGINE Starting up DB access
+[08/Apr/2016:21:26:42] ENGINE Error in 'start' listener <bound method SAEnginePlugin.start of <lib.plugin.db.SAEnginePlugin object at 0x231a370>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 203, in publish
+    output.append(listener(*args, **kwargs))
+  File "/mnt/external/weatherStation/weatherStationApp/lib/plugin/db.py", line 23, in start
+    create_all(self)
+NameError: global name 'create_all' is not defined
+
+[08/Apr/2016:21:26:42] ENGINE Setting up Mako resources
+[08/Apr/2016:21:26:42] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:21:26:43] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:21:26:43] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 241, in start
+    self.publish('start')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 221, in publish
+    raise exc
+ChannelFailures: NameError("global name 'create_all' is not defined",)
+
+[08/Apr/2016:21:26:43] ENGINE Bus STOPPING
+[08/Apr/2016:21:26:43] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:21:26:43] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:21:26:43] ENGINE Stopping down DB access
+[08/Apr/2016:21:26:43] ENGINE Freeing up Mako resources
+[08/Apr/2016:21:26:43] ENGINE Bus STOPPED
+[08/Apr/2016:21:26:43] ENGINE Bus EXITING
+[08/Apr/2016:21:26:43] ENGINE Bus EXITED
+[08/Apr/2016:21:28:12] ENGINE Listening for SIGHUP.
+[08/Apr/2016:21:28:12] ENGINE Listening for SIGTERM.
+[08/Apr/2016:21:28:12] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:21:28:12] ENGINE Bus STARTING
+[08/Apr/2016:21:28:12] ENGINE Starting up DB access
+[08/Apr/2016:21:28:12] ENGINE Error in 'start' listener <bound method SAEnginePlugin.start of <lib.plugin.db.SAEnginePlugin object at 0x26bd370>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 203, in publish
+    output.append(listener(*args, **kwargs))
+  File "/mnt/external/weatherStation/weatherStationApp/lib/plugin/db.py", line 23, in start
+    self.create_all(self)
+TypeError: create_all() takes exactly 1 argument (2 given)
+
+[08/Apr/2016:21:28:12] ENGINE Setting up Mako resources
+[08/Apr/2016:21:28:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:21:28:12] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:21:28:12] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 241, in start
+    self.publish('start')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 221, in publish
+    raise exc
+ChannelFailures: TypeError('create_all() takes exactly 1 argument (2 given)',)
+
+[08/Apr/2016:21:28:12] ENGINE Bus STOPPING
+[08/Apr/2016:21:28:12] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:21:28:12] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:21:28:12] ENGINE Stopping down DB access
+[08/Apr/2016:21:28:12] ENGINE Freeing up Mako resources
+[08/Apr/2016:21:28:12] ENGINE Bus STOPPED
+[08/Apr/2016:21:28:12] ENGINE Bus EXITING
+[08/Apr/2016:21:28:12] ENGINE Bus EXITED
+[08/Apr/2016:21:28:39] ENGINE Listening for SIGHUP.
+[08/Apr/2016:21:28:39] ENGINE Listening for SIGTERM.
+[08/Apr/2016:21:28:39] ENGINE Listening for SIGUSR1.
+[08/Apr/2016:21:28:39] ENGINE Bus STARTING
+[08/Apr/2016:21:28:39] ENGINE Starting up DB access
+[08/Apr/2016:21:28:39] ENGINE Creating database
+[08/Apr/2016:21:28:39] ENGINE DB exists
+[08/Apr/2016:21:28:39] ENGINE Setting up Mako resources
+[08/Apr/2016:21:28:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Apr/2016:21:28:39] ENGINE Serving on http://192.168.1.183:7070
+[08/Apr/2016:21:28:39] ENGINE Bus STARTED
+[08/Apr/2016:21:28:56] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[08/Apr/2016:21:28:56] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 20, in last_24_hours
+    for temperature in Temperature.get_last_24_hours(db):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'SELECT "sensorsReadingView"."readingDate" AS "sensorsReadingView_readingDate", "sensorsReadingView"."airTemperature" AS "sensorsReadingView_airTemperature", "sensorsReadingView"."heaterTemperature" AS "sensorsReadingView_heaterTemperature" \nFROM "sensorsReadingView"']
+[08/Apr/2016:21:29:18] ENGINE Caught signal SIGHUP.
+[08/Apr/2016:21:29:18] ENGINE SIGHUP caught but not daemonized. Exiting.
+[08/Apr/2016:21:29:18] ENGINE Bus STOPPING
+[08/Apr/2016:21:29:18] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[08/Apr/2016:21:29:18] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Apr/2016:21:29:18] ENGINE Stopping down DB access
+[08/Apr/2016:21:29:18] ENGINE Freeing up Mako resources
+[08/Apr/2016:21:29:18] ENGINE Bus STOPPED
+[08/Apr/2016:21:29:18] ENGINE Bus EXITING
+[08/Apr/2016:21:29:18] ENGINE Bus EXITED
+[08/Apr/2016:21:29:18] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:13:21:58] ENGINE Listening for SIGHUP.
+[09/Apr/2016:13:21:59] ENGINE Listening for SIGTERM.
+[09/Apr/2016:13:21:59] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:13:21:59] ENGINE Bus STARTING
+[09/Apr/2016:13:21:59] ENGINE Setting up Mako resources
+[09/Apr/2016:13:21:59] ENGINE Starting up DB access
+[09/Apr/2016:13:21:59] ENGINE Creating database
+[09/Apr/2016:13:21:59] ENGINE DB exists
+[09/Apr/2016:13:21:59] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:13:21:59] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:13:21:59] ENGINE Bus STARTED
+[09/Apr/2016:13:22:20] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[09/Apr/2016:13:22:20] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 20, in last_24_hours
+    for temperature in Temperature.get_last_24_hours(db):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'SELECT "sensorsReadingView"."readingDate" AS "sensorsReadingView_readingDate", "sensorsReadingView"."airTemperature" AS "sensorsReadingView_airTemperature", "sensorsReadingView"."heaterTemperature" AS "sensorsReadingView_heaterTemperature" \nFROM "sensorsReadingView"']
+[09/Apr/2016:13:31:27] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:13:31:27] ENGINE Bus STOPPING
+[09/Apr/2016:13:31:27] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:13:31:27] ENGINE Freeing up Mako resources
+[09/Apr/2016:13:31:27] ENGINE Stopping down DB access
+[09/Apr/2016:13:31:27] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:13:31:27] ENGINE Bus STOPPED
+[09/Apr/2016:13:31:27] ENGINE Bus EXITING
+[09/Apr/2016:13:31:27] ENGINE Bus EXITED
+[09/Apr/2016:13:31:27] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:15:53:28] ENGINE Listening for SIGHUP.
+[09/Apr/2016:15:53:28] ENGINE Listening for SIGTERM.
+[09/Apr/2016:15:53:28] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:15:53:28] ENGINE Bus STARTING
+[09/Apr/2016:15:53:28] ENGINE Setting up Mako resources
+[09/Apr/2016:15:53:28] ENGINE Starting up DB access
+[09/Apr/2016:15:53:29] ENGINE Error in 'start' listener <bound method SAEnginePlugin.start of <lib.plugin.db.SAEnginePlugin object at 0xebe3f0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 203, in publish
+    output.append(listener(*args, **kwargs))
+  File "/mnt/external/weatherStation/weatherStationApp/lib/plugin/db.py", line 22, in start
+    Base.metadata.create_all(self.sa_engine)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/schema.py", line 3695, in create_all
+    tables=tables)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1856, in _run_visitor
+    conn._run_visitor(visitorcallable, element, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1481, in _run_visitor
+    **kwargs).traverse_single(element)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/visitors.py", line 121, in traverse_single
+    return meth(obj, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/ddl.py", line 709, in visit_metadata
+    [t for t in tables if self._can_create_table(t)])
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/ddl.py", line 686, in _can_create_table
+    table.name, schema=table.schema)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/dialects/sqlite/base.py", line 1139, in has_table
+    connection, "table_info", table_name, schema=schema)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/dialects/sqlite/base.py", line 1480, in _get_table_pragma
+    cursor = connection.execute(statement)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 906, in execute
+    return self._execute_text(object, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1054, in _execute_text
+    statement, parameters
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'PRAGMA table_info("sensorsReadingView")']
+
+[09/Apr/2016:15:53:29] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:15:53:29] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:15:53:29] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 241, in start
+    self.publish('start')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 221, in publish
+    raise exc
+ChannelFailures: DatabaseError('(sqlite3.DatabaseError) file is encrypted or is not a database',)
+
+[09/Apr/2016:15:53:29] ENGINE Bus STOPPING
+[09/Apr/2016:15:53:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:15:53:29] ENGINE Stopping down DB access
+[09/Apr/2016:15:53:29] ENGINE Freeing up Mako resources
+[09/Apr/2016:15:53:29] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:15:53:29] ENGINE Bus STOPPED
+[09/Apr/2016:15:53:29] ENGINE Bus EXITING
+[09/Apr/2016:15:53:29] ENGINE Bus EXITED
+[09/Apr/2016:15:56:16] ENGINE Listening for SIGHUP.
+[09/Apr/2016:15:56:16] ENGINE Listening for SIGTERM.
+[09/Apr/2016:15:56:16] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:15:56:16] ENGINE Bus STARTING
+[09/Apr/2016:15:56:16] ENGINE Setting up Mako resources
+[09/Apr/2016:15:56:16] ENGINE Starting up DB access
+[09/Apr/2016:15:56:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:15:56:16] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:15:56:16] ENGINE Bus STARTED
+[09/Apr/2016:15:56:25] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[09/Apr/2016:15:56:25] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 20, in last_24_hours
+    for temperature in Temperature.get_last_24_hours(db):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+DatabaseError: (sqlite3.DatabaseError) file is encrypted or is not a database [SQL: u'SELECT "sensorsReadingView"."readingDate" AS "sensorsReadingView_readingDate", "sensorsReadingView"."airTemperature" AS "sensorsReadingView_airTemperature", "sensorsReadingView"."heaterTemperature" AS "sensorsReadingView_heaterTemperature" \nFROM "sensorsReadingView"']
+[09/Apr/2016:15:58:35] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:15:58:35] ENGINE Bus STOPPING
+[09/Apr/2016:15:58:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:15:58:35] ENGINE Freeing up Mako resources
+[09/Apr/2016:15:58:35] ENGINE Stopping down DB access
+[09/Apr/2016:15:58:35] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:15:58:35] ENGINE Bus STOPPED
+[09/Apr/2016:15:58:35] ENGINE Bus EXITING
+[09/Apr/2016:15:58:35] ENGINE Bus EXITED
+[09/Apr/2016:15:58:35] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:10:06] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:10:06] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:10:06] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:10:06] ENGINE Bus STARTING
+[09/Apr/2016:16:10:06] ENGINE Starting up DB access
+[09/Apr/2016:16:10:06] ENGINE Setting up Mako resources
+[09/Apr/2016:16:10:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:10:06] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:10:06] ENGINE Bus STARTED
+[09/Apr/2016:16:10:15] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[09/Apr/2016:16:10:15] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 26, in last_24_hours
+    temperature.append(node)
+AttributeError: 'Temperature' object has no attribute 'append'
+[09/Apr/2016:16:11:16] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:11:16] ENGINE Bus STOPPING
+[09/Apr/2016:16:11:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:11:16] ENGINE Stopping down DB access
+[09/Apr/2016:16:11:16] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:11:16] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:11:16] ENGINE Bus STOPPED
+[09/Apr/2016:16:11:16] ENGINE Bus EXITING
+[09/Apr/2016:16:11:16] ENGINE Bus EXITED
+[09/Apr/2016:16:11:16] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:12:38] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:12:38] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:12:38] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:12:38] ENGINE Bus STARTING
+[09/Apr/2016:16:12:38] ENGINE Setting up Mako resources
+[09/Apr/2016:16:12:38] ENGINE Starting up DB access
+[09/Apr/2016:16:12:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:12:38] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:12:38] ENGINE Bus STARTED
+[09/Apr/2016:16:12:49] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[09/Apr/2016:16:12:49] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 26, in last_24_hours
+    temperature.append(node)
+AttributeError: 'Temperature' object has no attribute 'append'
+[09/Apr/2016:16:14:37] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:14:37] ENGINE Bus STOPPING
+[09/Apr/2016:16:14:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:14:37] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:14:37] ENGINE Stopping down DB access
+[09/Apr/2016:16:14:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:14:37] ENGINE Bus STOPPED
+[09/Apr/2016:16:14:37] ENGINE Bus EXITING
+[09/Apr/2016:16:14:37] ENGINE Bus EXITED
+[09/Apr/2016:16:14:37] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:14:58] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:14:58] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:14:58] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:14:58] ENGINE Bus STARTING
+[09/Apr/2016:16:14:58] ENGINE Setting up Mako resources
+[09/Apr/2016:16:14:58] ENGINE Starting up DB access
+[09/Apr/2016:16:14:59] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:14:59] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:14:59] ENGINE Bus STARTED
+[09/Apr/2016:16:15:05] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[09/Apr/2016:16:15:05] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 26, in last_24_hours
+    temperature.append(node)
+AttributeError: 'dict' object has no attribute 'append'
+[09/Apr/2016:16:17:29] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:17:29] ENGINE Bus STOPPING
+[09/Apr/2016:16:17:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:17:29] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:17:29] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:17:29] ENGINE Stopping down DB access
+[09/Apr/2016:16:17:29] ENGINE Bus STOPPED
+[09/Apr/2016:16:17:29] ENGINE Bus EXITING
+[09/Apr/2016:16:17:29] ENGINE Bus EXITED
+[09/Apr/2016:16:17:29] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:17:32] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:17:32] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:17:32] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:17:32] ENGINE Bus STARTING
+[09/Apr/2016:16:17:32] ENGINE Setting up Mako resources
+[09/Apr/2016:16:17:32] ENGINE Starting up DB access
+[09/Apr/2016:16:17:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:17:32] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:17:32] ENGINE Bus STARTED
+[09/Apr/2016:16:17:38] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[09/Apr/2016:16:17:38] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 26, in last_24_hours
+    temperature.append(node)
+UnboundLocalError: local variable 'node' referenced before assignment
+[09/Apr/2016:16:19:01] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:19:01] ENGINE Bus STOPPING
+[09/Apr/2016:16:19:01] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:19:01] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:19:01] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:19:01] ENGINE Stopping down DB access
+[09/Apr/2016:16:19:01] ENGINE Bus STOPPED
+[09/Apr/2016:16:19:01] ENGINE Bus EXITING
+[09/Apr/2016:16:19:01] ENGINE Bus EXITED
+[09/Apr/2016:16:19:01] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:19:03] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:19:03] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:19:03] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:19:03] ENGINE Bus STARTING
+[09/Apr/2016:16:19:03] ENGINE Setting up Mako resources
+[09/Apr/2016:16:19:03] ENGINE Starting up DB access
+[09/Apr/2016:16:19:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:19:04] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:19:04] ENGINE Bus STARTED
+[09/Apr/2016:16:19:13] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[09/Apr/2016:16:19:13] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 26, in last_24_hours
+    temperatures.append(node)
+UnboundLocalError: local variable 'node' referenced before assignment
+[09/Apr/2016:16:19:48] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:19:48] ENGINE Bus STOPPING
+[09/Apr/2016:16:19:48] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:19:48] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:19:48] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:19:48] ENGINE Stopping down DB access
+[09/Apr/2016:16:19:48] ENGINE Bus STOPPED
+[09/Apr/2016:16:19:48] ENGINE Bus EXITING
+[09/Apr/2016:16:19:48] ENGINE Bus EXITED
+[09/Apr/2016:16:19:48] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:19:51] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:19:51] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:19:51] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:19:51] ENGINE Bus STARTING
+[09/Apr/2016:16:19:51] ENGINE Starting up DB access
+[09/Apr/2016:16:19:51] ENGINE Setting up Mako resources
+[09/Apr/2016:16:19:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:19:51] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:19:51] ENGINE Bus STARTED
+[09/Apr/2016:16:21:23] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:21:23] ENGINE Bus STOPPING
+[09/Apr/2016:16:21:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:21:23] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:21:23] ENGINE Stopping down DB access
+[09/Apr/2016:16:21:23] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:21:23] ENGINE Bus STOPPED
+[09/Apr/2016:16:21:23] ENGINE Bus EXITING
+[09/Apr/2016:16:21:23] ENGINE Bus EXITED
+[09/Apr/2016:16:21:23] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:21:26] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:21:26] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:21:26] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:21:26] ENGINE Bus STARTING
+[09/Apr/2016:16:21:26] ENGINE Starting up DB access
+[09/Apr/2016:16:21:26] ENGINE Setting up Mako resources
+[09/Apr/2016:16:21:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:21:26] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:21:26] ENGINE Bus STARTED
+[09/Apr/2016:16:27:18] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:27:18] ENGINE Bus STOPPING
+[09/Apr/2016:16:27:18] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:27:18] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:27:18] ENGINE Stopping down DB access
+[09/Apr/2016:16:27:18] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:27:18] ENGINE Bus STOPPED
+[09/Apr/2016:16:27:18] ENGINE Bus EXITING
+[09/Apr/2016:16:27:18] ENGINE Bus EXITED
+[09/Apr/2016:16:27:18] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:27:20] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:27:20] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:27:20] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:27:20] ENGINE Bus STARTING
+[09/Apr/2016:16:27:20] ENGINE Starting up DB access
+[09/Apr/2016:16:27:20] ENGINE Setting up Mako resources
+[09/Apr/2016:16:27:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:27:21] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:27:21] ENGINE Bus STARTED
+[09/Apr/2016:16:28:19] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:28:19] ENGINE Bus STOPPING
+[09/Apr/2016:16:28:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:28:19] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:28:19] ENGINE Stopping down DB access
+[09/Apr/2016:16:28:19] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:28:19] ENGINE Bus STOPPED
+[09/Apr/2016:16:28:19] ENGINE Bus EXITING
+[09/Apr/2016:16:28:19] ENGINE Bus EXITED
+[09/Apr/2016:16:28:19] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:28:21] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:28:21] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:28:21] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:28:21] ENGINE Bus STARTING
+[09/Apr/2016:16:28:21] ENGINE Setting up Mako resources
+[09/Apr/2016:16:28:21] ENGINE Starting up DB access
+[09/Apr/2016:16:28:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:28:21] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:28:21] ENGINE Bus STARTED
+[09/Apr/2016:16:28:30] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[09/Apr/2016:16:28:30] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 675, in respond
+    response.finalize()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 947, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 908, in collapse_body
+    for chunk in self.body:
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/encoding.py", line 289, in compress
+    for line in body:
+  File "/usr/lib/python2.7/json/encoder.py", line 427, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 401, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 325, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 401, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 435, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 177, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: datetime.datetime(2016, 3, 25, 14, 46, 46) is not JSON serializable
+[09/Apr/2016:16:28:42] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[09/Apr/2016:16:28:42] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 675, in respond
+    response.finalize()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 947, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 908, in collapse_body
+    for chunk in self.body:
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/encoding.py", line 289, in compress
+    for line in body:
+  File "/usr/lib/python2.7/json/encoder.py", line 427, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 401, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 325, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 401, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 435, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 177, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: datetime.datetime(2016, 3, 25, 14, 46, 46) is not JSON serializable
+[09/Apr/2016:16:28:48] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[09/Apr/2016:16:28:48] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 675, in respond
+    response.finalize()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 947, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 908, in collapse_body
+    for chunk in self.body:
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/encoding.py", line 289, in compress
+    for line in body:
+  File "/usr/lib/python2.7/json/encoder.py", line 427, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 401, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 325, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 401, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 435, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 177, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: datetime.datetime(2016, 3, 25, 14, 46, 46) is not JSON serializable
+[09/Apr/2016:16:29:25] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:29:25] ENGINE Bus STOPPING
+[09/Apr/2016:16:29:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:29:25] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:29:25] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:29:25] ENGINE Stopping down DB access
+[09/Apr/2016:16:29:25] ENGINE Bus STOPPED
+[09/Apr/2016:16:29:25] ENGINE Bus EXITING
+[09/Apr/2016:16:29:25] ENGINE Bus EXITED
+[09/Apr/2016:16:29:25] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:29:28] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:29:28] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:29:28] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:29:28] ENGINE Bus STARTING
+[09/Apr/2016:16:29:28] ENGINE Setting up Mako resources
+[09/Apr/2016:16:29:28] ENGINE Starting up DB access
+[09/Apr/2016:16:29:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:29:28] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:29:28] ENGINE Bus STARTED
+[09/Apr/2016:16:29:33] HTTP 
+Request Headers:
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Firefox/45.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+[09/Apr/2016:16:29:33] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 675, in respond
+    response.finalize()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 947, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 908, in collapse_body
+    for chunk in self.body:
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/encoding.py", line 289, in compress
+    for line in body:
+  File "/usr/lib/python2.7/json/encoder.py", line 424, in _iterencode
+    for chunk in _iterencode_list(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 325, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 401, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 435, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 177, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: datetime.datetime(2016, 3, 25, 14, 46, 46) is not JSON serializable
+[09/Apr/2016:16:34:04] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:34:04] ENGINE Bus STOPPING
+[09/Apr/2016:16:34:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:34:04] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:34:04] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:34:04] ENGINE Stopping down DB access
+[09/Apr/2016:16:34:04] ENGINE Bus STOPPED
+[09/Apr/2016:16:34:04] ENGINE Bus EXITING
+[09/Apr/2016:16:34:04] ENGINE Bus EXITED
+[09/Apr/2016:16:34:04] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:34:07] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:34:07] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:34:07] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:34:07] ENGINE Bus STARTING
+[09/Apr/2016:16:34:07] ENGINE Setting up Mako resources
+[09/Apr/2016:16:34:07] ENGINE Starting up DB access
+[09/Apr/2016:16:34:07] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:34:07] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:34:07] ENGINE Bus STARTED
+[09/Apr/2016:16:35:58] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:35:58] ENGINE Bus STOPPING
+[09/Apr/2016:16:35:58] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:35:58] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:35:58] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:35:58] ENGINE Stopping down DB access
+[09/Apr/2016:16:35:58] ENGINE Bus STOPPED
+[09/Apr/2016:16:35:58] ENGINE Bus EXITING
+[09/Apr/2016:16:35:58] ENGINE Bus EXITED
+[09/Apr/2016:16:35:58] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:36:01] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:36:01] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:36:01] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:36:01] ENGINE Bus STARTING
+[09/Apr/2016:16:36:01] ENGINE Starting up DB access
+[09/Apr/2016:16:36:01] ENGINE Setting up Mako resources
+[09/Apr/2016:16:36:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:36:01] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:36:01] ENGINE Bus STARTED
+[09/Apr/2016:16:36:37] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:36:37] ENGINE Bus STOPPING
+[09/Apr/2016:16:36:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:36:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:36:37] ENGINE Stopping down DB access
+[09/Apr/2016:16:36:37] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:36:37] ENGINE Bus STOPPED
+[09/Apr/2016:16:36:37] ENGINE Bus EXITING
+[09/Apr/2016:16:36:37] ENGINE Bus EXITED
+[09/Apr/2016:16:36:37] ENGINE Waiting for child threads to terminate...
