@@ -2187,3 +2187,212 @@ TypeError: datetime.datetime(2016, 3, 25, 14, 46, 46) is not JSON serializable
 [09/Apr/2016:16:36:37] ENGINE Bus EXITING
 [09/Apr/2016:16:36:37] ENGINE Bus EXITED
 [09/Apr/2016:16:36:37] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:47:06] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:47:06] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:47:06] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:47:06] ENGINE Bus STARTING
+[09/Apr/2016:16:47:06] ENGINE Starting up DB access
+[09/Apr/2016:16:47:06] ENGINE Setting up Mako resources
+[09/Apr/2016:16:47:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:47:06] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:47:06] ENGINE Bus STARTED
+[09/Apr/2016:16:48:08] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:48:08] ENGINE Bus STOPPING
+[09/Apr/2016:16:48:08] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:48:08] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:48:08] ENGINE Stopping down DB access
+[09/Apr/2016:16:48:08] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:48:08] ENGINE Bus STOPPED
+[09/Apr/2016:16:48:08] ENGINE Bus EXITING
+[09/Apr/2016:16:48:08] ENGINE Bus EXITED
+[09/Apr/2016:16:48:08] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:55:59] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:55:59] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:55:59] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:55:59] ENGINE Bus STARTING
+[09/Apr/2016:16:55:59] ENGINE Starting up DB access
+[09/Apr/2016:16:55:59] ENGINE Setting up Mako resources
+[09/Apr/2016:16:55:59] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:55:59] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:55:59] ENGINE Bus STARTED
+[09/Apr/2016:16:58:55] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:58:55] ENGINE Bus STOPPING
+[09/Apr/2016:16:58:55] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:58:55] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:58:55] ENGINE Stopping down DB access
+[09/Apr/2016:16:58:55] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:58:55] ENGINE Bus STOPPED
+[09/Apr/2016:16:58:55] ENGINE Bus EXITING
+[09/Apr/2016:16:58:55] ENGINE Bus EXITED
+[09/Apr/2016:16:58:55] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:16:58:57] ENGINE Listening for SIGHUP.
+[09/Apr/2016:16:58:57] ENGINE Listening for SIGTERM.
+[09/Apr/2016:16:58:57] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:16:58:57] ENGINE Bus STARTING
+[09/Apr/2016:16:58:57] ENGINE Starting up DB access
+[09/Apr/2016:16:58:57] ENGINE Setting up Mako resources
+[09/Apr/2016:16:58:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:16:58:57] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:16:58:57] ENGINE Bus STARTED
+[09/Apr/2016:16:59:59] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:16:59:59] ENGINE Bus STOPPING
+[09/Apr/2016:16:59:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:16:59:59] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:16:59:59] ENGINE Stopping down DB access
+[09/Apr/2016:16:59:59] ENGINE Freeing up Mako resources
+[09/Apr/2016:16:59:59] ENGINE Bus STOPPED
+[09/Apr/2016:16:59:59] ENGINE Bus EXITING
+[09/Apr/2016:16:59:59] ENGINE Bus EXITED
+[09/Apr/2016:16:59:59] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:17:00:02] ENGINE Listening for SIGHUP.
+[09/Apr/2016:17:00:02] ENGINE Listening for SIGTERM.
+[09/Apr/2016:17:00:02] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:17:00:02] ENGINE Bus STARTING
+[09/Apr/2016:17:00:02] ENGINE Starting up DB access
+[09/Apr/2016:17:00:02] ENGINE Setting up Mako resources
+[09/Apr/2016:17:00:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:17:00:02] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:17:00:02] ENGINE Bus STARTED
+[09/Apr/2016:17:01:19] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:17:01:19] ENGINE Bus STOPPING
+[09/Apr/2016:17:01:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:17:01:19] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:17:01:19] ENGINE Stopping down DB access
+[09/Apr/2016:17:01:19] ENGINE Freeing up Mako resources
+[09/Apr/2016:17:01:19] ENGINE Bus STOPPED
+[09/Apr/2016:17:01:19] ENGINE Bus EXITING
+[09/Apr/2016:17:01:19] ENGINE Bus EXITED
+[09/Apr/2016:17:01:19] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:17:01:22] ENGINE Listening for SIGHUP.
+[09/Apr/2016:17:01:22] ENGINE Listening for SIGTERM.
+[09/Apr/2016:17:01:22] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:17:01:22] ENGINE Bus STARTING
+[09/Apr/2016:17:01:22] ENGINE Starting up DB access
+[09/Apr/2016:17:01:22] ENGINE Setting up Mako resources
+[09/Apr/2016:17:01:22] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:17:01:22] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:17:01:22] ENGINE Bus STARTED
+[09/Apr/2016:17:01:52] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:17:01:52] ENGINE Bus STOPPING
+[09/Apr/2016:17:01:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:17:01:52] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:17:01:52] ENGINE Stopping down DB access
+[09/Apr/2016:17:01:52] ENGINE Freeing up Mako resources
+[09/Apr/2016:17:01:52] ENGINE Bus STOPPED
+[09/Apr/2016:17:01:52] ENGINE Bus EXITING
+[09/Apr/2016:17:01:52] ENGINE Bus EXITED
+[09/Apr/2016:17:01:52] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:17:01:55] ENGINE Listening for SIGHUP.
+[09/Apr/2016:17:01:55] ENGINE Listening for SIGTERM.
+[09/Apr/2016:17:01:55] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:17:01:55] ENGINE Bus STARTING
+[09/Apr/2016:17:01:55] ENGINE Starting up DB access
+[09/Apr/2016:17:01:55] ENGINE Setting up Mako resources
+[09/Apr/2016:17:01:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:17:01:55] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:17:01:55] ENGINE Bus STARTED
+[09/Apr/2016:17:02:25] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:17:02:25] ENGINE Bus STOPPING
+[09/Apr/2016:17:02:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:17:02:25] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:17:02:25] ENGINE Stopping down DB access
+[09/Apr/2016:17:02:25] ENGINE Freeing up Mako resources
+[09/Apr/2016:17:02:25] ENGINE Bus STOPPED
+[09/Apr/2016:17:02:25] ENGINE Bus EXITING
+[09/Apr/2016:17:02:25] ENGINE Bus EXITED
+[09/Apr/2016:17:02:25] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:17:02:39] ENGINE Listening for SIGHUP.
+[09/Apr/2016:17:02:39] ENGINE Listening for SIGTERM.
+[09/Apr/2016:17:02:39] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:17:02:39] ENGINE Bus STARTING
+[09/Apr/2016:17:02:39] ENGINE Starting up DB access
+[09/Apr/2016:17:02:39] ENGINE Setting up Mako resources
+[09/Apr/2016:17:02:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:17:02:39] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:17:02:39] ENGINE Bus STARTED
+[09/Apr/2016:17:03:09] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:17:03:09] ENGINE Bus STOPPING
+[09/Apr/2016:17:03:10] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:17:03:10] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:17:03:10] ENGINE Stopping down DB access
+[09/Apr/2016:17:03:10] ENGINE Freeing up Mako resources
+[09/Apr/2016:17:03:10] ENGINE Bus STOPPED
+[09/Apr/2016:17:03:10] ENGINE Bus EXITING
+[09/Apr/2016:17:03:10] ENGINE Bus EXITED
+[09/Apr/2016:17:03:10] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:17:03:12] ENGINE Listening for SIGHUP.
+[09/Apr/2016:17:03:12] ENGINE Listening for SIGTERM.
+[09/Apr/2016:17:03:12] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:17:03:12] ENGINE Bus STARTING
+[09/Apr/2016:17:03:12] ENGINE Starting up DB access
+[09/Apr/2016:17:03:12] ENGINE Setting up Mako resources
+[09/Apr/2016:17:03:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:17:03:13] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:17:03:13] ENGINE Bus STARTED
+[09/Apr/2016:17:06:21] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:17:06:21] ENGINE Bus STOPPING
+[09/Apr/2016:17:06:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:17:06:21] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:17:06:21] ENGINE Stopping down DB access
+[09/Apr/2016:17:06:21] ENGINE Freeing up Mako resources
+[09/Apr/2016:17:06:21] ENGINE Bus STOPPED
+[09/Apr/2016:17:06:21] ENGINE Bus EXITING
+[09/Apr/2016:17:06:21] ENGINE Bus EXITED
+[09/Apr/2016:17:06:21] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:17:06:24] ENGINE Listening for SIGHUP.
+[09/Apr/2016:17:06:24] ENGINE Listening for SIGTERM.
+[09/Apr/2016:17:06:24] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:17:06:24] ENGINE Bus STARTING
+[09/Apr/2016:17:06:24] ENGINE Starting up DB access
+[09/Apr/2016:17:06:24] ENGINE Setting up Mako resources
+[09/Apr/2016:17:06:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:17:06:24] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:17:06:24] ENGINE Bus STARTED
+[09/Apr/2016:17:07:00] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:17:07:00] ENGINE Bus STOPPING
+[09/Apr/2016:17:07:00] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:17:07:00] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:17:07:00] ENGINE Stopping down DB access
+[09/Apr/2016:17:07:00] ENGINE Freeing up Mako resources
+[09/Apr/2016:17:07:00] ENGINE Bus STOPPED
+[09/Apr/2016:17:07:00] ENGINE Bus EXITING
+[09/Apr/2016:17:07:00] ENGINE Bus EXITED
+[09/Apr/2016:17:07:00] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:17:07:04] ENGINE Listening for SIGHUP.
+[09/Apr/2016:17:07:04] ENGINE Listening for SIGTERM.
+[09/Apr/2016:17:07:04] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:17:07:04] ENGINE Bus STARTING
+[09/Apr/2016:17:07:04] ENGINE Starting up DB access
+[09/Apr/2016:17:07:04] ENGINE Setting up Mako resources
+[09/Apr/2016:17:07:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:17:07:04] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:17:07:04] ENGINE Bus STARTED
+[09/Apr/2016:18:02:01] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:18:02:01] ENGINE Bus STOPPING
+[09/Apr/2016:18:02:01] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:18:02:01] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:18:02:01] ENGINE Stopping down DB access
+[09/Apr/2016:18:02:01] ENGINE Freeing up Mako resources
+[09/Apr/2016:18:02:01] ENGINE Bus STOPPED
+[09/Apr/2016:18:02:01] ENGINE Bus EXITING
+[09/Apr/2016:18:02:01] ENGINE Bus EXITED
+[09/Apr/2016:18:02:01] ENGINE Waiting for child threads to terminate...
+[09/Apr/2016:18:02:04] ENGINE Listening for SIGHUP.
+[09/Apr/2016:18:02:04] ENGINE Listening for SIGTERM.
+[09/Apr/2016:18:02:04] ENGINE Listening for SIGUSR1.
+[09/Apr/2016:18:02:04] ENGINE Bus STARTING
+[09/Apr/2016:18:02:04] ENGINE Starting up DB access
+[09/Apr/2016:18:02:04] ENGINE Setting up Mako resources
+[09/Apr/2016:18:02:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+[09/Apr/2016:18:02:04] ENGINE Serving on http://192.168.1.183:7070
+[09/Apr/2016:18:02:04] ENGINE Bus STARTED
+[09/Apr/2016:18:04:07] ENGINE Keyboard Interrupt: shutting down bus
+[09/Apr/2016:18:04:07] ENGINE Bus STOPPING
+[09/Apr/2016:18:04:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[09/Apr/2016:18:04:07] ENGINE Stopped thread '_TimeoutMonitor'.
+[09/Apr/2016:18:04:07] ENGINE Stopping down DB access
+[09/Apr/2016:18:04:07] ENGINE Freeing up Mako resources
+[09/Apr/2016:18:04:07] ENGINE Bus STOPPED
+[09/Apr/2016:18:04:07] ENGINE Bus EXITING
+[09/Apr/2016:18:04:07] ENGINE Bus EXITED
+[09/Apr/2016:18:04:07] ENGINE Waiting for child threads to terminate...
