@@ -44,8 +44,12 @@ class WeatherStation(object):
 
     @cherrypy.expose
     @cherrypy.tools.json_out()
-    def reading_in_range(self, fromDate, toDate):
+    @cherrypy.tools.json_in()
+    def reading_in_range(self):
         db = cherrypy.request.db
+        input_json = cherrypy.request.json
+        fromDate = input_json['fromDate']
+        toDate = input_json['toDate']
         readings = []
         for temperature in Temperature.get_reading_inrange(db, fromDate, toDate):
             node = {

@@ -2,6 +2,7 @@
 from datetime import datetime, timedelta
 from sqlalchemy import Column
 from sqlalchemy.types import DateTime, Text
+from sqlachemy import and_
 
 from lib.model import Base
 
@@ -32,7 +33,7 @@ class Temperature(Base):
 
     @staticmethod
     def get_reading_inrange(session, fromDateTime, toDateTime):
-        return session.query(Temperature).filter(Temperature.readingDate >= fromDateTime and Temperature.readingDate <= toDateTime).order_by(Temperature.readingDate)
+        return session.query(Temperature).filter(and_(Temperature.readingDate >= fromDateTime, Temperature.readingDate <= toDateTime)).order_by(Temperature.readingDate)
 
     @staticmethod
     def all_(session):

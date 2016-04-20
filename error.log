@@ -1184,3 +1184,90 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/json/encoder.py", line 177, in default
     raise TypeError(repr(o) + " is not JSON serializable")
 TypeError: datetime.datetime(2016, 3, 25, 14, 46, 46) is not JSON serializable
+[10/Apr/2016:10:54:52] HTTP 
+Request Headers:
+  Content-Length: 62
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[10/Apr/2016:10:54:52] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 54, in reading_in_range
+    for temperature in Temperature.get_reading_inrange(db, fromDate, toDate):
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/temperature.py", line 35, in get_reading_inrange
+    return session.query(Temperature).filter(Temperature.readingDate >= fromDateTime and Temperature.readingDate <= toDateTime).order_by(Temperature.readingDate)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 2745, in __bool__
+    raise TypeError("Boolean value of this clause is not defined")
+TypeError: Boolean value of this clause is not defined
+[10/Apr/2016:10:58:01] HTTP 
+Request Headers:
+  Content-Length: 62
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[10/Apr/2016:10:58:01] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 54, in reading_in_range
+    for temperature in Temperature.get_reading_inrange(db, fromDate, toDate):
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/temperature.py", line 35, in get_reading_inrange
+    return session.query(Temperature).filter(Temperature.readingDate >= fromDateTime, Temperature.readingDate <= toDateTime).order_by(Temperature.readingDate)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 2745, in __bool__
+    raise TypeError("Boolean value of this clause is not defined")
+TypeError: Boolean value of this clause is not defined
+[10/Apr/2016:10:59:15] HTTP 
+Request Headers:
+  Content-Length: 62
+  REFERER: http://192.168.1.183:7070/
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: application/json, text/javascript, */*; q=0.01
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[10/Apr/2016:10:59:15] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 54, in reading_in_range
+    for temperature in Temperature.get_reading_inrange(db, fromDate, toDate):
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/temperature.py", line 35, in get_reading_inrange
+    def get_reading_inrange(session, fromDateTime, toDateTime):
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 2745, in __bool__
+    raise TypeError("Boolean value of this clause is not defined")
+TypeError: Boolean value of this clause is not defined
