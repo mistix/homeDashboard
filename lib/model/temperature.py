@@ -2,7 +2,6 @@
 from datetime import datetime, timedelta
 from sqlalchemy import Column
 from sqlalchemy.types import DateTime, Text
-from sqlachemy import and_
 
 from lib.model import Base
 
@@ -30,6 +29,10 @@ class Temperature(Base):
     @staticmethod
     def get_last_week(session):
         return session.query(Temperature).filter(Temperature.readingDate >= datetime.now() - timedelta(days=7)).order_by(Temperature.readingDate)
+
+    @staticmethod
+    def get_average_temperature_last_48h(session):
+        return session.query(func.avg(Temperature.airTemperature)).filter(Temperature.readingDate >= datetime.now() - timedelta(days=2)).order_by(Temperature.readingDate)
 
     @staticmethod
     def get_reading_inrange(session, fromDateTime, toDateTime):

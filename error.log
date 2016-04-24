@@ -1271,3 +1271,289 @@ Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 2745, in __bool__
     raise TypeError("Boolean value of this clause is not defined")
 TypeError: Boolean value of this clause is not defined
+[24/Apr/2016:13:47:51] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  HOST: 192.168.1.183:7070
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[24/Apr/2016:13:47:51] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 85, in powerConsumptionLastMonth
+    for powerConsumption in Electricity.get_this_month(db):
+NameError: global name 'Electricity' is not defined
+[24/Apr/2016:13:48:51] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  HOST: 192.168.1.183:7070
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[24/Apr/2016:13:48:51] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 85, in powerConsumptionLastMonth
+    for powerConsumption in ElectricityView.get_this_month(db):
+NameError: global name 'ElectricityView' is not defined
+[24/Apr/2016:13:49:36] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  HOST: 192.168.1.183:7070
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[24/Apr/2016:13:49:36] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 85, in powerConsumptionLastMonth
+    for powerConsumption in ElectricityView.get_this_month(db):
+NameError: global name 'ElectricityView' is not defined
+[24/Apr/2016:13:50:07] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  HOST: 192.168.1.183:7070
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[24/Apr/2016:13:50:07] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 85, in powerConsumptionLastMonth
+    for powerConsumption in ElectricityView.get_this_month(db):
+NameError: global name 'ElectricityView' is not defined
+[24/Apr/2016:13:50:53] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  HOST: 192.168.1.183:7070
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[24/Apr/2016:13:50:53] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 85, in powerConsumptionLastMonth
+    for powerConsumption in ElectricityView.get_this_month(db):
+NameError: global name 'ElectricityView' is not defined
+[24/Apr/2016:13:52:19] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  HOST: 192.168.1.183:7070
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[24/Apr/2016:13:52:19] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 86, in powerConsumptionLastMonth
+    for powerConsumption in ElectricityView.get_this_month(db):
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/electricityView.py", line 26, in get_this_month
+    return session.query(ElectricityView).filter(Electricity.readingDate >= firstDayOfMonth).order_by(Electricity.readingDate)
+NameError: global name 'Electricity' is not defined
+[24/Apr/2016:13:53:03] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  PRAGMA: no-cache
+  HOST: 192.168.1.183:7070
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: no-cache
+  Remote-Addr: 192.168.1.194
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[24/Apr/2016:13:53:03] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 86, in powerConsumptionLastMonth
+    for powerConsumption in ElectricityView.get_this_month(db):
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/electricityView.py", line 26, in get_this_month
+    return session.query(ElectricityView).filter(ElectricityView.readingDate >= firstDayOfMonth).order_by(ElectricityView.readingDate)
+NameError: global name 'Electricity' is not defined
+[24/Apr/2016:13:54:19] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  PRAGMA: no-cache
+  HOST: 192.168.1.183:7070
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: no-cache
+  Remote-Addr: 192.168.1.194
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[24/Apr/2016:13:54:19] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/jsontools.py", line 63, in json_handler
+    value = cherrypy.serving.request._json_inner_handler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 88, in powerConsumptionLastMonth
+    "readingDate": temperature.readingDate,
+NameError: global name 'temperature' is not defined
+[24/Apr/2016:13:55:24] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  PRAGMA: no-cache
+  HOST: 192.168.1.183:7070
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: no-cache
+  Remote-Addr: 192.168.1.194
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[24/Apr/2016:13:55:24] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 675, in respond
+    response.finalize()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 947, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 908, in collapse_body
+    for chunk in self.body:
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/encoding.py", line 289, in compress
+    for line in body:
+  File "/usr/lib/python2.7/json/encoder.py", line 424, in _iterencode
+    for chunk in _iterencode_list(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 325, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 401, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 325, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 435, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 177, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: Column(None, Text(), table=None) is not JSON serializable
+[24/Apr/2016:13:58:12] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  PRAGMA: no-cache
+  HOST: 192.168.1.183:7070
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: no-cache
+  Remote-Addr: 192.168.1.194
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[24/Apr/2016:13:58:12] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 675, in respond
+    response.finalize()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 947, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 908, in collapse_body
+    for chunk in self.body:
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/encoding.py", line 289, in compress
+    for line in body:
+  File "/usr/lib/python2.7/json/encoder.py", line 424, in _iterencode
+    for chunk in _iterencode_list(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 325, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 401, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 325, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 435, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 177, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: Column(None, Text(), table=None) is not JSON serializable
+[24/Apr/2016:14:01:24] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  HOST: 192.168.1.183:7070
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 192.168.1.194
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[24/Apr/2016:14:01:24] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 675, in respond
+    response.finalize()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 947, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 908, in collapse_body
+    for chunk in self.body:
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/encoding.py", line 289, in compress
+    for line in body:
+  File "/usr/lib/python2.7/json/encoder.py", line 424, in _iterencode
+    for chunk in _iterencode_list(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 325, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 401, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 325, in _iterencode_list
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 435, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 177, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: Column(None, Text(), table=None) is not JSON serializable

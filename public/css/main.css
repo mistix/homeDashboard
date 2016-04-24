@@ -1,0 +1,47 @@
+.dashboard .row {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	text-align: center;
+	width: 100%;
+}
+
+.dashboard .item {
+	width: 210px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.dashboard .item .body {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+	.dashboard .item .body .image {
+	}
+
+	.dashboard .item .body .content {
+		font-family: Franklin Gothic Regular,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-variant: normal;
+		line-height: 19.8px;
+	}
+
+.dashboard .item .footer {
+	background-color: rgba(111, 102, 102, 0.9);
+	text-align: right;
+	padding: 5px;
+}
+	.dashboard .item .footer .footerText {
+		font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+		font-size: 18px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+		line-height: 19.8px;
+	}
+
