@@ -1557,3 +1557,466 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/json/encoder.py", line 177, in default
     raise TypeError(repr(o) + " is not JSON serializable")
 TypeError: Column(None, Text(), table=None) is not JSON serializable
+[24/Apr/2016:20:15:59] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:15:59] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 120, in addNewReading
+    ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+NameError: global name 'inputJson' is not defined
+[24/Apr/2016:20:16:05] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:16:05] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 120, in addNewReading
+    ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+NameError: global name 'inputJson' is not defined
+[24/Apr/2016:20:16:58] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:16:58] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 120, in addNewReading
+    ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/electricityInsert.py", line 23, in addReadingValue
+    now = date.today()
+NameError: global name 'date' is not defined
+[24/Apr/2016:20:18:03] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:18:03] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 120, in addNewReading
+    ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/electricityInsert.py", line 23, in addReadingValue
+    def addReadingValue(session, readingValue, meterId):
+NameError: global name 'date' is not defined
+[24/Apr/2016:20:18:26] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:18:26] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 120, in addNewReading
+    ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/electricityInsert.py", line 26, in addReadingValue
+    newReading = session.query(Electricity).insert(id='NULL', value=readingValue,  readingDate=now, meterId = meterId)
+NameError: global name 'Electricity' is not defined
+[24/Apr/2016:20:18:53] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:18:53] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 120, in addNewReading
+    ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/electricityInsert.py", line 26, in addReadingValue
+    newReading = session.query(ElectricityInsert).insert(id='NULL', value=readingValue,  readingDate=now, meterId = meterId)
+NameError: global name 'Electricity' is not defined
+[24/Apr/2016:20:19:10] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:19:10] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 120, in addNewReading
+    ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/electricityInsert.py", line 26, in addReadingValue
+    newReading = session.query(ElectricityInsert).insert(id='NULL', value=readingValue,  readingDate=now, meterId = meterId)
+AttributeError: 'Query' object has no attribute 'insert'
+[24/Apr/2016:20:23:10] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:23:10] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 120, in addNewReading
+    ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/electricityInsert.py", line 27, in addReadingValue
+    sessiona.add(newReading)
+NameError: global name 'sessiona' is not defined
+[24/Apr/2016:20:23:41]  
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/lib/tool/db.py", line 47, in commit_transaction
+    cherrypy.engine.publish('commit-session')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 221, in publish
+    raise exc
+ChannelFailures: InvalidRequestError('This Session\'s transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) datatype mismatch [SQL: u\'INSERT INTO "powerConsumption" (id, value, "readingDate", "meterId") VALUES (?, ?, ?, ?)\'] [parameters: (\'NULL\', u\'12345\', datetime.date(2016, 4, 24), u\'1\')]',)
+[24/Apr/2016:20:23:41] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:23:41] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 684, in respond
+    self.hooks.run('on_end_resource')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: InvalidRequestError('This Session\'s transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) datatype mismatch [SQL: u\'INSERT INTO "powerConsumption" (id, value, "readingDate", "meterId") VALUES (?, ?, ?, ?)\'] [parameters: (\'NULL\', u\'12345\', datetime.date(2016, 4, 24), u\'1\')]',)
+[24/Apr/2016:20:27:06] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:27:06] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 120, in addNewReading
+    ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/electricityInsert.py", line 24, in addReadingValue
+    now = date.today()
+NameError: global name 'date' is not defined
+[24/Apr/2016:20:27:59]  
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/lib/tool/db.py", line 47, in commit_transaction
+    cherrypy.engine.publish('commit-session')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 221, in publish
+    raise exc
+ChannelFailures: InvalidRequestError('This Session\'s transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) datatype mismatch [SQL: u\'INSERT INTO "powerConsumption" (id, value, "readingDate", "meterId") VALUES (?, ?, ?, ?)\'] [parameters: (\'NULL\', u\'12345\', \'YYYY-MM-DD HH:mm:ss\', u\'1\')]',)
+[24/Apr/2016:20:27:59] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:27:59] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 684, in respond
+    self.hooks.run('on_end_resource')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: InvalidRequestError('This Session\'s transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) datatype mismatch [SQL: u\'INSERT INTO "powerConsumption" (id, value, "readingDate", "meterId") VALUES (?, ?, ?, ?)\'] [parameters: (\'NULL\', u\'12345\', \'YYYY-MM-DD HH:mm:ss\', u\'1\')]',)
+[24/Apr/2016:20:30:26]  
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/lib/tool/db.py", line 47, in commit_transaction
+    cherrypy.engine.publish('commit-session')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 221, in publish
+    raise exc
+ChannelFailures: InvalidRequestError('This Session\'s transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) datatype mismatch [SQL: u\'INSERT INTO "powerConsumption" (id, value, "readingDate", "meterId") VALUES (?, ?, ?, ?)\'] [parameters: (\'NULL\', u\'12345\', \'2016-04-24 00:00:00\', u\'1\')]',)
+[24/Apr/2016:20:30:26] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:30:26] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 684, in respond
+    self.hooks.run('on_end_resource')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: InvalidRequestError('This Session\'s transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) datatype mismatch [SQL: u\'INSERT INTO "powerConsumption" (id, value, "readingDate", "meterId") VALUES (?, ?, ?, ?)\'] [parameters: (\'NULL\', u\'12345\', \'2016-04-24 00:00:00\', u\'1\')]',)
+[24/Apr/2016:20:32:17] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:32:17] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 120, in addNewReading
+    ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/electricityInsert.py", line 24, in addReadingValue
+    now = date.now()
+AttributeError: type object 'datetime.date' has no attribute 'now'
+[24/Apr/2016:20:33:00] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:33:00] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/webapp/app.py", line 120, in addNewReading
+    ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+  File "/mnt/external/weatherStation/weatherStationApp/lib/model/electricityInsert.py", line 24, in addReadingValue
+    now = date.now()
+NameError: global name 'date' is not defined
+[24/Apr/2016:20:33:21]  
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/lib/tool/db.py", line 47, in commit_transaction
+    cherrypy.engine.publish('commit-session')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 221, in publish
+    raise exc
+ChannelFailures: InvalidRequestError("This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: Instance <ElectricityInsert at 0xb5e58430> has a NULL identity key.  If this is an auto-generated value, check that the database table allows generation of new primary key values, and that the mapped Column object is configured to expect these generated values.  Ensure also that this flush() is not occurring at an inappropriate time, such aswithin a load() event.",)
+[24/Apr/2016:20:33:21] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:33:21] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 684, in respond
+    self.hooks.run('on_end_resource')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: InvalidRequestError("This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: Instance <ElectricityInsert at 0xb5e58430> has a NULL identity key.  If this is an auto-generated value, check that the database table allows generation of new primary key values, and that the mapped Column object is configured to expect these generated values.  Ensure also that this flush() is not occurring at an inappropriate time, such aswithin a load() event.",)
+[24/Apr/2016:20:34:01]  
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/lib/tool/db.py", line 47, in commit_transaction
+    cherrypy.engine.publish('commit-session')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 221, in publish
+    raise exc
+ChannelFailures: InvalidRequestError('This Session\'s transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) datatype mismatch [SQL: u\'INSERT INTO "powerConsumption" (id, value, "readingDate", "meterId") VALUES (?, ?, ?, ?)\'] [parameters: (\'NULL\', u\'12345\', \'2016-04-24 20:34:01\', u\'1\')]',)
+[24/Apr/2016:20:34:01] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:34:01] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 684, in respond
+    self.hooks.run('on_end_resource')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: InvalidRequestError('This Session\'s transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) datatype mismatch [SQL: u\'INSERT INTO "powerConsumption" (id, value, "readingDate", "meterId") VALUES (?, ?, ?, ?)\'] [parameters: (\'NULL\', u\'12345\', \'2016-04-24 20:34:01\', u\'1\')]',)
+[24/Apr/2016:20:36:22]  
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 104, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 63, in __call__
+    return self.callback(**self.kwargs)
+  File "/mnt/external/weatherStation/weatherStationApp/lib/tool/db.py", line 47, in commit_transaction
+    cherrypy.engine.publish('commit-session')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 221, in publish
+    raise exc
+ChannelFailures: InvalidRequestError('This Session\'s transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) datatype mismatch [SQL: u\'INSERT INTO "powerConsumption" (id, value, "readingDate", "meterId") VALUES (?, ?, ?, ?)\'] [parameters: (\'NULL\', \'12345\', \'2016-04-24 20:36:22\', \'1\')]',)
+[24/Apr/2016:20:36:22] HTTP 
+Request Headers:
+  Content-Length: 36
+  REFERER: http://192.168.1.183:7070/electricityUsage
+  HOST: 192.168.1.183:7070
+  ORIGIN: http://192.168.1.183:7070
+  CONNECTION: keep-alive
+  Remote-Addr: 192.168.1.194
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4
+  Content-Type: application/json
+  ACCEPT-ENCODING: gzip, deflate
+[24/Apr/2016:20:36:22] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 684, in respond
+    self.hooks.run('on_end_resource')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 114, in run
+    raise exc
+ChannelFailures: InvalidRequestError('This Session\'s transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) datatype mismatch [SQL: u\'INSERT INTO "powerConsumption" (id, value, "readingDate", "meterId") VALUES (?, ?, ?, ?)\'] [parameters: (\'NULL\', \'12345\', \'2016-04-24 20:36:22\', \'1\')]',)

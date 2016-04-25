@@ -4,6 +4,8 @@ import cherrypy
 
 from lib.model.temperature import Temperature
 from lib.model.electricityView import ElectricityView
+from lib.model.electricityInsert import ElectricityInsert
+from lib.model.meter import Meter
 
 __all__ = ['WeatherStation']
 
@@ -93,3 +95,27 @@ class WeatherStation(object):
             powerConsumption.append(node)
 
         return powerConsumption
+
+    @cherrypy.expose
+    @cherrypy.tools.json_out()
+    def getAllMeters(self):
+        db = cherrypy.request.db
+
+        meters = []
+        for item in Meter.getAllMeters(db):
+            node = {
+                "id": item.id,
+                "meterNumber": item.number,
+            }
+            meters.append(node)
+
+        return meters
+
+    @cherrypy.expose
+    @cherrypy.tools.json_in()
+    def addNewReading(self):
+        db = cherrypy.request.db
+        inputJson = cherrypy.request.json
+
+        ElectricityInsert.addReadingValue(db, inputJson['meterValue'], inputJson['meterId'])
+

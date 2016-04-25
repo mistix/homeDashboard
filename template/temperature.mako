@@ -14,7 +14,6 @@
 		  <li><a href='#last48h'>Ostatnie 48h</a></li>
 		  <li class='floatRight'><a href='/index'>Dashboard</a></li>
       </ul>
-      <div id='chartTitle'></div>
       <div id="content-container">
 	<div id="curve_chart"></div>
 	  <div id='loading' class='modal'></div>

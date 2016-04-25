@@ -5,41 +5,25 @@
     function drawChart() {
 	jQuery('a[href="#last24h"]').click(function () {
 	    jQuery('#loading').addClass('modal');
-	    jQuery('#chartTitle').text('Dane z ostatnich 24 godzin');
-	    $.getJSON("/last_24_hours", showTemperatureChart);
+	    $.getJSON("/last_24_hours", function(data) {
+		showTemperatureChart(data, 'Dane z ostatnich 24 godzin');
+	    });
 	});
 	
 	jQuery('a[href="#last48h"]').click(function () {
 	    jQuery('#loading').addClass('modal');
-	    jQuery('#chartTitle').text('Dane z ostatnich 48 godzin');
-	    $.getJSON("/last_48_hours", showTemperatureChart);
-	});
-
-	jQuery('a[href="#lastWeek"]').on('click', function () {
-	    jQuery('#loading').addClass('modal');
-	    jQuery('#chartTitle').text('Dane z ostatniego tygodnia');
-
-	    var now = new Date();
-	    var weekBeforeNow = now.setDate(now.getDate() - 7);
-	    $.ajax({
-		type: "POST",
-		url: "/reading_in_range",
-	        data: JSON.stringify({fromDate: weekBeforeNow, toDate: now }),
-		contentType: 'application/json',
-		dataType: 'json',
-		error: function() { 
-		    jQuery('#loading').removeClass('modal');
-		},
-		success: showTemperatureChart
+	    $.getJSON("/last_48_hours", function(data) {
+		showTemperatureChart(data, 'Dane z ostanich 48 godzin');
 	    });
 	});
 
-	jQuery('#chartTitle').text('Dane z ostatnich 24 godzin');
-	$.getJSON("/last_24_hours", showTemperatureChart);
+	$.getJSON("/last_24_hours", function(data) {
+	    showTemperatureChart(data, 'Dane z ostatnich 24 godzin');
+	});
     }
 
-    function showTemperatureChart(data) {
-	var temperatureArray = [ ];
+    function showTemperatureChart(data, chartTitle) {
+	var temperatureArray = [];
 	var heaterTemperature = [];
 	var airTemperature = [];
 
@@ -65,16 +49,18 @@
 
 	var chartData = new google.visualization.DataTable();
 	chartData.addColumn('string', 'Data');
-	chartData.addColumn('number', 'Temperaturza powierza');
-	chartData.addColumn('number', 'Temperaturza grzejnika');
+	chartData.addColumn('number', 'Temperatura powierza');
+	chartData.addColumn('number', 'Temperatura grzejnika');
 
 	chartData.addRows(temperatureArray);
 	
 	var options = {
+	    	title: chartTitle,
 		curveType: 'function',
 		legend: { position: 'bottom' },
 		height: 700,
-		vAxis: { minValue: lowestTemperature, maxValue: highestTemperature, ticks: ticksArray },
+		hAxis: { title: 'Czas' },
+		vAxis: { title: 'Temperatura [C]',  minValue: lowestTemperature, maxValue: highestTemperature, ticks: ticksArray },
 	};
 
 	var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));

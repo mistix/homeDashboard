@@ -12,9 +12,15 @@
       <ul>
 	  <li><a class='active' href='#lastMonth'>Ostatni miesiac</a></li>
 	  <li><a href='#twoMonths'>Ostatnie 2 miesiace</a></li>
+	  <li><a href='#addNewValue'>Dodaj odczyt</a></li>
 	  <li class='floatRight'><a href='/index'>Dashboard</a></li>
       </ul>
-      <div id='chartTitle'></div>
+      <div class='insertBody hidden'>
+	  <span class='boldText'>Licznik</span>
+	  <select id='meterPicker'></select>
+	  <input id='meterValue' type='text' />
+	  <button id='addNewReading' type='button'>Dodaj</button>
+      </div>
       <div id="content-container">
 	<div id="curve_chart"></div>
 	  <div id='loading' class='modal'></div>
