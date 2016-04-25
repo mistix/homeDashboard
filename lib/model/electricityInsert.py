@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from datetime import datetime
-from sqlalchemy import Column
+from datetime import datetime, date
+from sqlalchemy import Column, cast, Date, func
 from sqlalchemy.types import Text, Integer
 
 from lib.model import Base
@@ -20,11 +20,19 @@ class ElectricityInsert(Base):
         self.value = message
 
     @staticmethod
+    def isReadingExistsInCurrentDay(session, meterId):
+        now = date.today()
+        return session.query(func.count(ElectricityInsert.id)).filter(ElectricityInsert.meterId == meterId).filter(func.date(ElectricityInsert.readingDate) == now).scalar() > 0
+
+    @staticmethod
     def addReadingValue(session, readingValue, meterId):
         now = datetime.now()
         dateAsText = now.strftime('%Y-%m-%d %H:%M:%S')
 
+        isExists = ElectricityInsert.isReadingExistsInCurrentDay(session, meterId)
+        if isExists:
+            return
+
         newReading = ElectricityInsert(value=str(readingValue),  readingDate=dateAsText, meterId=str(meterId))
         session.add(newReading)
         session.commit()
-
