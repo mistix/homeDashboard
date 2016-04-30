@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <script type="text/javascript" src="/static/js/jquery-1.12.0.min.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="/static/js/electricity.js"></script>
+    <script type="text/javascript" src="/static/scripts/require.js"></script>
     <link rel="stylesheet" type="text/css" href="/static/css/electricity.css">
   </head>
   <body>

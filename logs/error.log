@@ -5056,3 +5056,22 @@ NameError: global name 'func' is not defined
 [25/Apr/2016:18:59:45] ENGINE Started monitor thread '_TimeoutMonitor'.
 [25/Apr/2016:18:59:45] ENGINE Serving on http://192.168.1.183:7070
 [25/Apr/2016:18:59:45] ENGINE Bus STARTED
+[30/Apr/2016:09:58:16] ENGINE Keyboard Interrupt: shutting down bus
+[30/Apr/2016:09:58:16] ENGINE Bus STOPPING
+[30/Apr/2016:09:58:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('192.168.1.183', 7070)) shut down
+[30/Apr/2016:09:58:16] ENGINE Freeing up Mako resources
+[30/Apr/2016:09:58:16] ENGINE Stopping down DB access
+[30/Apr/2016:09:58:16] ENGINE Stopped thread '_TimeoutMonitor'.
+[30/Apr/2016:09:58:16] ENGINE Bus STOPPED
+[30/Apr/2016:09:58:16] ENGINE Bus EXITING
+[30/Apr/2016:09:58:16] ENGINE Bus EXITED
+[30/Apr/2016:09:58:16] ENGINE Waiting for child threads to terminate...
+[30/Apr/2016:09:58:20] ENGINE Listening for SIGHUP.
+[30/Apr/2016:09:58:20] ENGINE Listening for SIGTERM.
+[30/Apr/2016:09:58:20] ENGINE Listening for SIGUSR1.
+[30/Apr/2016:09:58:20] ENGINE Bus STARTING
+[30/Apr/2016:09:58:20] ENGINE Starting up DB access
+[30/Apr/2016:09:58:20] ENGINE Setting up Mako resources
+[30/Apr/2016:09:58:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[30/Apr/2016:09:58:20] ENGINE Serving on http://192.168.1.183:7070
+[30/Apr/2016:09:58:20] ENGINE Bus STARTED
