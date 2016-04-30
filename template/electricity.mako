@@ -3,9 +3,6 @@
   <head>
     <title>Home Temperature</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <script type="text/javascript" src="/static/js/jquery-1.12.0.min.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="/static/scripts/require.js"></script>
     <link rel="stylesheet" type="text/css" href="/static/css/electricity.css">
   </head>
   <body>
@@ -26,4 +23,11 @@
 	  <div id='loading' class='modal'></div>
       </div>
   </body>
+  <script data-main="/static/scripts/common" src="/static/scripts/require.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script>
+    require(['common'], function() {
+	require(['pages/electricity']);
+    });
+  </script>
 </html>
