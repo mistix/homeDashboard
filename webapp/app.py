@@ -85,7 +85,24 @@ class WeatherStation(object):
         db = cherrypy.request.db
 
         powerConsumption = []
-        for item in ElectricityView.get_this_month(db):
+        for item in ElectricityView.get_last_month(db):
+            node = {
+                "readingDate": item.readingDate,
+                "meterNumber": item.meterNumber,
+                "readingValue": item.readingValue,
+                "powerUsage": item.powerUsage
+            }
+            powerConsumption.append(node)
+
+        return powerConsumption
+
+    @cherrypy.expose
+    @cherrypy.tools.json_out()
+    def powerConsumptionLastTwoMonth(self):
+        db = cherrypy.request.db
+
+        powerConsumption = []
+        for item in ElectricityView.get_last_two_months(db):
             node = {
                 "readingDate": item.readingDate,
                 "meterNumber": item.meterNumber,

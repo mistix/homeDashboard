@@ -12,7 +12,12 @@
 	display: inline-block;
 	margin-left: 10px;
 	margin-top: 10px;
+	cursor: pointer
 }
+
+	.dashboard .item:hover {
+	    background-color: #cccecf
+	}
 
 .dashboard .item .body {
 	border: 1px solid black;

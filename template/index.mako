@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Home Temperature</title>
+    <title>Home Dashboard</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <script type="text/javascript" src="/static/js/jquery-1.12.0.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/static/css/main.css">
   </head>
   <body>
 	  <div class='dashboard'>
 		  <div class='row'>
-			  <div class='item'>
+			  <div class='item temperature'>
 				  <div class='body'>
 					  <div class='image'>
 						  <img src='/static/images/tool.png' />
@@ -27,11 +26,11 @@
 				  </div>
 				  <div class='footer'>
 					  <div class='footerText'>
-						  <a href='/temperature'> More</a>
+					      <span>Click to more</span>
 					  </div>
 				  </div>
 			  </div>
-			  <div class='item'>
+			  <div class='item electricity'>
 				  <div class='body'>
 					  <div class='image'>
 						  <img src='/static/images/electricity.png' />
@@ -49,11 +48,18 @@
 				  </div>
 				  <div class='footer'>
 					  <div class='footerText'>
-						  <a href='/electricityUsage'> More</a>
+					      <span>Click to more</span>
 					  </div>
 				  </div>
 			  </div>
 		  </div>
 	  </div>
   </body>
+  <script data-main="/static/scripts/common" src="/static/scripts/require.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script>
+    require(['common'], function() {
+	require(['pages/main']);
+    });
+  </script>
 </html>
