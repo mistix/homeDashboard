@@ -26,6 +26,10 @@ class ElectricityView(Base):
         firstDayOfPrevMonth = date(now.year, now.month-1, 3)
         lastDayOfPrevMonth = date(now.year, now.month, 3)
 
+        if now.day >= 3:
+            firstDayOfPrevMonth = date(now.year, now.month, 3)
+            lastDayOfPrevMonth = date(now.year, now.month+1, 3)
+
         return session.query(ElectricityView).filter(func.julianday(ElectricityView.readingDate) >= func.julianday(firstDayOfPrevMonth)).filter(func.julianday(ElectricityView.readingDate) <= func.julianday(lastDayOfPrevMonth)).order_by(ElectricityView.readingDate)
 
     @staticmethod
@@ -34,6 +38,14 @@ class ElectricityView(Base):
         firstDayOfPrevMonth = date(now.year, now.month-2, 3)
 
         return session.query(ElectricityView).filter(func.julianday(ElectricityView.readingDate) >= func.julianday(firstDayOfPrevMonth)).order_by(ElectricityView.readingDate)
+
+    @staticmethod
+    def get_last_mesurement(session):
+        return session.query(ElectricityView).order_by(func.julianday(ElectricityView.readingDate).desc()).first()
+
+    @staticmethod
+    def get_payment_values(session):
+        return session.query(ElectricityView).filter(func.strftime('%d', ElectricityView.readingDate) == '03').order_by(ElectricityView.readingDate)
 
     @staticmethod
     def get_month(session, year, month):

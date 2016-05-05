@@ -6,7 +6,7 @@ define(['jquery', 'tools'], function(jQuery, tools) {
 	    jQuery('a[href="#lastMonth"]').click(function () {
 		    jQuery('#loading').addClass('modal');
 		    jQuery.getJSON("/powerConsumptionLastMonth", function(data) {
-				showChart(data, 'Dane z ostatniego miesiąca');
+				showChart(data.powerConsumption, 'Dane z ostatniego miesiąca');
 				jQuery('div.insertBody').addClass('hidden');
 		    });
 	    });
@@ -14,7 +14,7 @@ define(['jquery', 'tools'], function(jQuery, tools) {
 	    jQuery('a[href="#twoMonths"]').click(function () {
 		    jQuery('#loading').addClass('modal');
 		    jQuery.getJSON("/powerConsumptionLastTwoMonth", function(data) {
-				showChart(data, 'Dane z ostatnich dwóch miesiący');
+				showChart(data.powerConsumption, 'Dane z ostatnich dwóch miesiący');
 				jQuery('div.insertBody').addClass('hidden');
 		    });
 	    });
@@ -47,7 +47,7 @@ define(['jquery', 'tools'], function(jQuery, tools) {
 	    });
 
 	    jQuery.getJSON("/powerConsumptionLastMonth", function(data) {
-			showChart(data, 'Dane z ostatniego miesiąca');
+			showChart(data.powerConsumption, 'Dane z ostatniego miesiąca');
 			jQuery('div.insertBody').addClass('hidden');
 	    });
     }

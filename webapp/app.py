@@ -94,7 +94,33 @@ class WeatherStation(object):
             }
             powerConsumption.append(node)
 
-        return powerConsumption
+        lastReading = []
+        mesurement = ElectricityView.get_last_mesurement(db)
+        node = {
+            "readingDate": mesurement.readingDate,
+            "meterNumber": mesurement.meterNumber,
+            "readingValue": mesurement.readingValue,
+            "powerUsage": mesurement.powerUsage
+        }
+        lastReading.append(node)
+
+        payments = []
+        for item in ElectricityView.get_payment_values(db):
+            node = {
+                "readingDate": item.readingDate,
+                "meterNumber": item.meterNumber,
+                "readingValue": item.readingValue,
+                "powerUsage": item.powerUsage
+            }
+            payments.append(node)
+
+        node = {
+            "payments":  payments,
+            "powerConsumption": powerConsumption,
+            "lastReading": lastReading
+        }
+
+        return node
 
     @cherrypy.expose
     @cherrypy.tools.json_out()
